@@ -9,7 +9,7 @@ Projekt łączy w sobie rygorystyczne podejście do modelowania danych (DDL) z p
 
 Repozytorium zawiera następujące moduły:
 
-1.  **`Dokumentacja_Projektu.docx`** – Kompleksowy raport z realizacji projektu. Zawiera:
+1.  **`RaportBazyDanych.docx`** – Kompleksowy raport z realizacji projektu. Zawiera:
     - **Widok encji i relacyjny**: Graficzne przedstawienie struktury bazy.
     - **Opis logiki biznesowej**: Wyjaśnienie, dlaczego wybrano takie, a nie inne powiązania.
     - **Komentarze analityczne**: Szczegółowe omówienie wyników każdego ze scenariuszy.
@@ -19,7 +19,7 @@ Repozytorium zawiera następujące moduły:
 5.  **`exportUczelniaDB.sql`** – Pełny zrzut bazy do natychmiastowego importu (Oracle SQL Developer / Data Modeler).
 
 ## 📊 Dokumentacja i Modelowanie
-W pliku **`Dokumentacja_Projektowa.docx`** znajduje się pełna analiza teoretyczna projektu. Skupiłem się w niej na:
+W pliku **`RaportBazyDanych.docx`** znajduje się pełna analiza teoretyczna projektu. Skupiłem się w niej na:
 - **Normalizacji bazy**: Zapewnieniu braku redundancji danych.
 - **Weryfikacji relacji**: Szczegółowym opisie tabel łączących (N:M) dla Kierunków i Przedmiotów.
 - **Interpretacji wyników**: Raport wyjaśnia, jak otrzymane dane z widoków (Views) mogą wspierać decyzje dyrekcji uczelni (np. optymalizacja obłożenia budynków).
